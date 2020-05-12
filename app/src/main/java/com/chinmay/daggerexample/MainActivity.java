@@ -6,8 +6,11 @@ import android.os.Bundle;
 
 import com.chinmay.daggerexample.models.Car;
 
+import javax.inject.Inject;
+
 public class MainActivity extends AppCompatActivity {
-    private Car car;
+    @Inject
+    Car car;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         CarComponent component = DaggerCarComponent.create();
-        car = component.getCar();
+        component.inject(this);
         car.drive();
     }
 }
