@@ -9,6 +9,7 @@ import com.chinmay.daggerexample.models.Car;
 import javax.inject.Inject;
 
 public class MainActivity extends AppCompatActivity {
+
     @Inject
     Car car;
 
