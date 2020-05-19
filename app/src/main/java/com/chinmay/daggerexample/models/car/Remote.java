@@ -1,4 +1,4 @@
-package com.chinmay.daggerexample.models;
+package com.chinmay.daggerexample.models.car;
 
 import android.util.Log;
 

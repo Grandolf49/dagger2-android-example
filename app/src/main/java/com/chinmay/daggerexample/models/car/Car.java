@@ -1,4 +1,4 @@
-package com.chinmay.daggerexample.models;
+package com.chinmay.daggerexample.models.car;
 
 import android.util.Log;
 
@@ -11,7 +11,6 @@ public class Car {
     private static final String TAG = "Car";
 
     private Engine engine;
-
     private Wheels wheels;
 
     @Inject
@@ -26,6 +25,7 @@ public class Car {
     }
 
     public void drive() {
+        engine.start();
         Log.d(TAG, "driving...");
     }
 }

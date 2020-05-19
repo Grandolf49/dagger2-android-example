@@ -1,4 +1,4 @@
-package com.chinmay.daggerexample.models;
+package com.chinmay.daggerexample.models.car;
 
 /**
  * Created by grandolf49 on 19-05-2020

@@ -4,7 +4,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.chinmay.daggerexample.models.Car;
+import com.chinmay.daggerexample.models.car.Car;
+import com.chinmay.daggerexample.models.dagger.CarComponent;
+import com.chinmay.daggerexample.models.dagger.DaggerCarComponent;
 
 import javax.inject.Inject;
 

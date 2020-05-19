@@ -1,4 +1,8 @@
-package com.chinmay.daggerexample.models;
+package com.chinmay.daggerexample.models.dagger;
+
+import com.chinmay.daggerexample.models.car.Rims;
+import com.chinmay.daggerexample.models.car.Tires;
+import com.chinmay.daggerexample.models.car.Wheels;
 
 import dagger.Module;
 import dagger.Provides;
